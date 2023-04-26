@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+
+body {
+  background-color: chocolate;
+  font-family: "IBM Plex Mono", monospace;
+  text-align: justify;
+  /* overflow: hidden; */
+}
+.sayfa {
+  width: 1000px;
+  margin: auto;
+  margin-bottom: 300px;
+}
+.ust {
+  background-color: #131313;
+  border: 2px solid #131313;
+  border-bottom-right-radius: 50px;
+  /* margin: auto; */
+}
+
+.title {
+  color: white;
+  float: left;
+  margin-left: 20px;
+}
+.menu {
+  width: 450px;
+  margin: 30px 0 0 0;
+  float: right;
+  padding: 0;
+  text-align: right;
+}
+.menu ul {
+  list-style: none;
+}
+.menu ul li {
+  display: inline;
+  padding: 20px;
+}
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+.menu ul li a:hover {
+  color: chocolate;
+}
+.clear {
+  clear: both;
+}
+.aciklama {
+  margin: 30px 0 0 0;
+  text-align: left;
+  text-align: justify;
+  color: white;
+  /* overflow: hidden; */
+  background-color: #232323;
+  /* opacity: 51%; */
+  border: 2px solid #131313;
+  border-top-right-radius: 50px;
+}
+.aciklama h1 {
+  align-items: center;
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 40px;
+}
+.aciklama h3 {
+  text-align: left;
+  padding-top: 50;
+  padding-left: 40px;
+}
+.aciklama h3 a {
+  text-decoration: none;
+  color: white;
+}
+.aciklama h3 a:hover {
+  color: chocolate;
+}
+.aciklama p {
+  margin: 30px;
+  padding-top: 50px;
+}
+/* .orta {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url(banner.jpg);
+  background-size: cover;
+  height: 100vh;
+} */

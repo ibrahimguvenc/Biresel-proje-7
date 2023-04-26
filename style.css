@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+body {
+  background-color: chocolate;
+  font-family: "Yeseva One", cursive;
+  text-align: justify;
+}
+.sayfa {
+  width: 1000px;
+  margin: auto;
+  margin-bottom: 300px;
+}
+/* .sayfa-2 {
+  width: 1000px;
+  margin: auto;
+  margin-bottom: 300px;
+} */
+.ust {
+  background-color: #131313;
+  border: 2px solid #131313;
+  border-bottom-right-radius: 50px;
+}
+/* .ust-2 {
+  background-color: #131313;
+  border: 2px solid #131313;
+  border-bottom-right-radius: 50px;
+} */
+.title {
+  color: white;
+  margin-left: 20px;
+  float: left;
+}
+/* .title-2 {
+  color: rgb(0, 0, 0);
+  margin-left: 20px;
+  float: left;
+} */
+.menu {
+  width: 450px;
+  margin: 30px 0 0 0;
+  float: right;
+  padding: 0;
+  /* display: flex; */
+  text-align: right;
+}
+.menu ul {
+  /* display: flex; */
+  list-style: none;
+}
+.menu ul li {
+  display: inline;
+  padding: 20px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+.menu ul li a:hover {
+  color: chocolate;
+}
+.clear {
+  clear: both;
+}
+.orta-sol {
+  float: left;
+  margin-top: 20px;
+}
+.orta-sag {
+  width: 470px;
+  height: 280px;
+  background-color: #fdc609;
+  float: right;
+  margin-top: 20px;
+  text-align: center;
+}
+.orta-sag img {
+  padding-top: 35px;
+  /* box-shadow: 1px 1px 1px gray; */
+}
+.orta-resim {
+  /* padding: 10px; */
+  margin: 0 20px;
+}
+.card {
+  margin-top: 50px;
+  width: 250px;
+  float: left;
+  /* margin-right: 5px; */
+  display: inline;
+  padding-right: 20px;
+}
+.card img {
+  align-items: center;
+}
+.card h1 {
+  border-bottom: 1px dotted white;
+  text-align: justify;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  text-align: center;
+  font-size: x-large;
+}
+.card-orta {
+  margin-top: 50px;
+  width: 250px;
+  float: left;
+  /* margin-right: 5px; */
+  display: inline;
+  padding-right: 20px;
+  padding-left: 80px;
+}
+.card-orta h1 {
+  border-bottom: 1px dotted white;
+  text-align: justify;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  text-align: center;
+  font-size: x-large;
+}
+.alt-card {
+  margin-top: 50px;
+  width: 250px;
+  float: left;
+  /* margin-right: 5px; */
+  display: inline;
+  padding-right: 20px;
+  padding-left: 80px;
+}
+.alt-card h1 {
+  border-bottom: 1px dotted white;
+  text-align: justify;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  text-align: center;
+  font-size: x-large;
+}
+.buton {
+  width: 100px;
+  height: 200px;
+  display: inline;
+}
+.buton a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 15px 15px;
+  background-color: #131313;
+}
+.buton a:hover {
+  color: chocolate;
+  background-color: burlywood;
+}
